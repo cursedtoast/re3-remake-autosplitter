@@ -127,6 +127,10 @@ init
 			version = "1.2";
 			vars.inventoryPtr = 0x08D89B90;
 			break;
+		case (645672960):
+			version = "1.2";
+			vars.inventoryPtr = 0x08D89B90;
+			break;
 		case (640299008):
 			version = "Cero Z 1.0";
 			vars.inventoryPtr = 0x08CBA618;
