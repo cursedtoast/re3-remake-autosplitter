@@ -2,6 +2,9 @@
 
 You want an autosplitter? I'll give you an autosplitter.
 
+Care to buy me a coffee?
+https://streamlabs.com/cursedtoast/tip
+
 # Instructions
 
 Edit your splits and change the game name to "Resident Evil 3". A message should display below "Start Timer at:" that notifies you that auto splitting and IGT is available by CursedToast. Click the "Activate" button.
