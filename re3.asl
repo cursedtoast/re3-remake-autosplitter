@@ -1,5 +1,6 @@
 //Resident Evil 3 Remake Autosplitter
 //By CursedToast 04/03/2020
+//Special thanks to Squirrelies for collaborating in finding memory values.
 //Last updated 10/02/2020
 
 state("re3", "1.3")
