@@ -1,7 +1,17 @@
 //Resident Evil 3 Remake Autosplitter
 //By CursedToast 04/03/2020
 //Special thanks to Squirrelies for collaborating in finding memory values.
-//Last updated 10/02/2020
+//Last updated 12/17/2021
+
+state("re3", "12/17 Update")
+{
+	int map : "re3.exe", 0x54DF0F8, 0x88;
+	int bossHP : "re3.exe", 0x8D868B0, 0x30, 0x20, 0x300, 0x58;
+	int weapon1 : "re3.exe", 0x8D85BA0, 0x50, 0x98, 0x10, 0x20, 0x18, 0x10, 0x14;
+	long active :  0x8DB3BA0, 0x60, 0x18;
+	long cutscene :  0x8DB3BA0, 0x60, 0x20;
+	long paused :  0x8DB3BA0, 0x60, 0x30;
+}
 
 state("re3", "1.3")
 {
@@ -129,6 +139,10 @@ init
 		case (613351424):
 			version = "1.0";
 			vars.inventoryPtr = 0x08D7C5E8;
+			break;
+		case (156102656):
+			version = "12/17 Update";
+			vars.inventoryPtr = 0x8D85BA0;
 			break;
 		case (609722368):
 			version = "1.1";
